@@ -1,0 +1,5 @@
+temperatures:
+12
+35
+20
+22

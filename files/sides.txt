@@ -1,0 +1,10 @@
+tail
+head
+head
+tail
+tail
+head
+tail
+head
+head
+exit
