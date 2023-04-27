@@ -1,4 +1,7 @@
-def get_todos(filepath):
+FILEPATH = "todos.txt"
+
+
+def get_todos(filepath=FILEPATH):
     """Read a text file and return" the list of
         to-dos list """
     with open(filepath, "r") as file_local:
@@ -6,7 +9,7 @@ def get_todos(filepath):
     return todos_local
 
 
-def write_todos(filepath, todos_arg):
+def write_todos(todos_arg, filepath=FILEPATH):
     """Write todos list into the text file"""
     with open(filepath, "w") as file_local:
         file_local.writelines(todos_arg)
